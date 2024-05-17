@@ -11,7 +11,6 @@ public class NearestPoints {
         return findMinDistance(points, n);
     }
 
-    //
     private static double findMinDistance(Point[] points, int n) {
         // Простой перебор, если точек <= 3; O(n^2)
         if (n <= 3) {
